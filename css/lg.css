@@ -1,0 +1,26 @@
+.menu {
+    background: rgba(0, 0, 0, 0);
+    width: 100%;
+    transform: translate(0,0);
+    height: 48px;
+    margin-right: 0;
+}
+.menu ul {
+    right: 0;
+}
+
+.menu li {
+    float: left;
+    margin-top: 12px;
+    margin-right: 20px;
+}
+
+.menu a {
+    display: inline;
+    padding: 7px;
+    color: #666666;
+}
+
+.btn-menu {
+    visibility: hidden;
+}

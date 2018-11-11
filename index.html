@@ -1,0 +1,187 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Gabriel Lima</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, scale=1">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" media="screen and (max-width:550px)" href="css/xs.css">
+    <link rel="stylesheet" media="screen and (min-width: 551px) and (max-width:768px)" href="css/md.css">
+    <link rel="stylesheet" media="screen and (min-width:769px)" href="css/lg.css">
+  </head>
+  <body>
+
+    <a href="#" class="btn-menu" id="btn-menu" onclick="open_menu()"></a>
+    <nav class="menu" id="menu">
+      <ul><li><a href="#sobre">Sobre mim</a></li>
+          <li><a href="#habilidades">Habilidades</a></li>
+          <li><a href="#portfolio">Projetos</a></li>
+          <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+    
+    <header>
+      <article  id="sobre" class="cabecalho parallax">
+        <div class="texto-parallax">
+          <span id="nome_especializacao"><p class="logo">Gabriel</p> <h1>Lima</h1><br><br><b>Desenvolvedor WEB</b> Full Stack</span>
+        </div>
+      </article>
+    </header>
+
+    <main>
+      <article class="cover-letter">
+        <div class="texto-cover">
+          Minha jornada começou 
+        </div>
+      </article>
+
+      <article id="habilidades" class="parallax habilidades">
+        <div class="texto-parallax">
+          <span><h2>Habilidades</h2></span>
+        </div>
+      </article>
+
+      <article class="container-flex">
+        <div class="front">
+          <h3>Front-end</h3>
+          <div class="texto-habilidades">
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+            </ul>
+          </div>
+        </div>
+          
+        <div class="back">
+          <h3>Back-end</h3>
+          <div class="texto-habilidades">
+            <ul>
+              <li>Python</li>
+              <li>C#</li>
+              <li>SQL</li>
+              </ul>
+            </div>
+          </div>
+      </article>
+
+      <article id="portfolio" class="parallax portfolio">
+        <div class="texto-parallax">
+          <span><h2>Portfolio</h2></span>
+        </div>
+      </article>
+
+      <!-- PORTFOLIO CONTENT-->
+      <article class="container-flex">
+        <article>
+          <div class="conteudo-article">
+            <img src="img/mf-browser.jpg" alt="My favorite films and tv shows website">
+            <h2>My favorite films and TV shows</h2>
+            <span>Website apresenta o trailer de meus filmes e series favoritos.</span>
+            <br><br>
+            <ul>
+              <li>Site totalmente responsivo</li>
+              <li>Para gerar o site dinâmicamente a linguagem utilizada foi o <b>Python</b></li>
+              <li>Para o Front-end foi utilizado HTML, CSS, JavaScript e Jquery</li>
+            </ul>
+            <br>
+              <a class="btn" href="https://hirotatsuo.github.io/Movie-trailer-WEBSITE/" target="_blank">Ver projeto</a>
+          </div>
+        </article>
+
+        <article>
+          <div class="conteudo-article">
+            <img src="img/darkarmy-browser.jpg" alt="Dark Army Brasil">
+            <h2>Dark Army Brasil</h2>
+            <span>Website criado para falar principamente sobre redes e segurança da informação.</span>
+            <br><br>
+            <ul>
+              <li>Site totalmente responsivo</li>
+              <li>Para gerar o site dinâmicamente a linguagem utilizada foi o <b>Python</b></li>
+              <li>Para o Front-end foi utilizado <b>HTML, CSS, Bootstrap e JavaScript</b></li>
+              <li><b>Ajax</b> foi usado para buscar os dados dos posts de modo assíncrono, ou seja, o Browser carregará mesmo o post carregando ou não</li>
+              <li><b>JSON</b> foi usado para armazenar os dados</li>
+            </ul>
+            <br>
+            <a class="btn" href="https://darkarmybrasil.github.io/" target="_blank">Ver projeto</a>
+          </div>
+        </article>
+
+        <article>
+          <div class="conteudo-article">
+              
+              <img src="img/theb-browser.jpg" alt="Brighton times">
+              <h2>Brighton Times</h2>
+              <span>Website fornecido pelo Nanodegree da Udacity. Minha missão foi torna-lo <b>totalmente responsivo.</b></span>
+              <br><br>
+              <ul>
+                <li>Para tornar o Website responsivo foi utilizado <b>HTML e CSS</b> apenas</li>
+              </ul>
+              <br>
+              <a class="btn" href="https://hirotatsuo.github.io/-The-Brighton-Times-/" target="_blank">Ver projeto</a>
+          </div>
+        </article>
+
+        <article>
+          <div class="conteudo-article">
+             
+              <img src="img/shop-soft.jpg" alt="Brighton times">
+              <h2>Shopping manager</h2>
+              <span>Sistema Desktop para o ambiente Windows. O App auxilia no gerenciamento de diversas areas de um Shopping center como gerenciamento de lojas, cameras dentre outras.</span>
+              <br><br>
+              <ul>
+                <li>Para o Design foi usado <b>XML, Metro Design e Material Skin (Skin baseada no Material Design do Google)</b></li>
+                <li>A base dados foi modelada utilizando o <b>SQL Server da Microsoft</b></li>
+                <li>A linguagem utilizada para o Back-end foi o <b>C#</b></li>
+              </ul>
+              <br>
+              <a class="btn" href="https://github.com/HiroTatsuo/Shopping-manager" target="_blank">Ver projeto</a>
+          </div>
+        </article>
+
+        <article>
+          <div class="conteudo-article">
+            
+            <img src="img/theb-browser.jpg" alt="Brighton times">
+            <h2>Brighton Times</h2>
+            <span>Website fornecido pelo nanodegree da Udacity. Minha missão foi torna-lo totalmente responsivo.</span>
+            <br><br>
+              <ul>
+                <li>Para tornar o Website responsivo foi utilizado HTML e CSS apenas</li>
+              </ul>
+              <br>
+              <a class="btn" href="#" target="_blank">Ver projeto</a>
+            </div>
+          </article>
+        </article> <!--FIM PORTFOLIO-->
+
+        <footer id="contato" class="parallax">
+          <div class="container-flex">
+              <span class="copy">Copyright&copy;Gabriel Lima</span>
+              
+            <span class="rede-social">
+              <a href="https://github.com/HiroTatsuo" target="_blank">
+                <img class="github" src="img/githubLogo.png" alt="github">
+              </a>
+            </span>
+
+            <span class="rede-social ">
+              <a href="https://www.instagram.com/galacticuser000/" target="_blank">
+                <img class="instagram" src="img/instagram-icone-icon-1.png" alt="instagram">
+              </a>
+            </span>
+          </div>
+        </footer>
+
+      </main>
+      <script type="text/javascript">
+      //  OPEN AND CLOSE THE MENU 
+          function open_menu () {
+            var menu = document.getElementById('menu');  // GET THE MENU
+            menu.classList.toggle('open_menu');  // ADD THE OPEN_MENU CLASS
+            var botao_menu = document.getElementById('btn-menu');  //GET THE MENU BUTTON
+            botao_menu.classList.toggle('visibility');  // REMOVE VISIBILITY FROM MENU BUTTON
+          }
+      </script>
+  </body>
+</html>

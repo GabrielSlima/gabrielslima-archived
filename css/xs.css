@@ -1,0 +1,28 @@
+.copy {
+    font-size: 16px;
+}
+
+.container-flex {
+    width:100%;
+}
+
+.container-flex > article, .container-flex > div {
+    width: 100%;
+}
+
+.rede-social {
+    width: 50%;
+}
+
+.rede-social img {
+    width: 48px;
+}
+
+.btn-menu {
+    padding: 28px;
+}
+
+.menu {
+    width: 70%;
+}
+
