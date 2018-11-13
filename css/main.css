@@ -5,7 +5,6 @@
 
       html {
         scroll-behavior: smooth;
-
       }
 
       body,html,header,.cabecalho, .portfolio, main, .menu, menu ul {
@@ -71,7 +70,7 @@
         font-size: 18px;
       }
 
-      #nome_especializacao > h1 {
+      #segundo_nome {
         display: inline;
       }
 
@@ -132,7 +131,7 @@
         
       }
 
-      .texto-parallax > span {
+      .texto-parallax > p,h1, h2 {
         display: table-cell;
         vertical-align: middle;
       }
@@ -147,10 +146,11 @@
 
       .texto-cover {
         text-align: justify;
-        display: table-cell;
-        vertical-align: middle;
       }
-
+      .cover-letter h3
+      {
+        color: #707070;
+      }
       .container-flex > article , .container-flex > div {
         border: 1px solid #dee2e6;
         box-shadow: 1px 1px 3px #dee2e6;

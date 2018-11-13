@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="pt-br">
   <head>
     <title>Gabriel Lima</title>
     <meta charset="utf-8">
@@ -23,25 +23,27 @@
     <header>
       <article  id="sobre" class="cabecalho parallax">
         <div class="texto-parallax">
-          <span id="nome_especializacao"><p class="logo">Gabriel</p> <h1>Lima</h1><br><br><b>Desenvolvedor WEB</b> Full Stack</span>
+           <p id="primeiro_nome" class="texto-parallax logo">Gabriel <b>Lima</b> <br><br><b>Desenvolvedor WEB</b> Full Stack</p>
         </div>
       </article>
     </header>
 
     <main>
       <article class="cover-letter">
-        <div class="texto-cover">
+        <h3>Sobre mim</h3>
+        <br>
+        <p class="texto-cover">
 Nascido em São Paulo, eu, Gabriel, prestei serviços de manutenção de computadores de modo freelancer a pelo menos 2 anos. Durante esse periodo me especializei em 
 desenvolvimento, hoje estudo programação de modo autodidata e redes de computadores.
 <br><br>Programador aos 18 anos, utilizei e utilizo as tecnologias dentro dessa área para a construção de coisas divertidas ao meu ver. Desenvolvendo sites, sistemas desktop e entendendo as redes pude vivênciar diferentes contextos, conhecer diversas pessoas e me expor ao mindset de crescimento ali presente.
 <br><br>Minha admiração por programação despertou-me o interesse em aprender a respeito das tecnologias que circulam e trazem os resultados da programação á vida, motivo pelo qual estou me graduando em redes de computadores.
 <br><br>Minha determinação em tornar os conhecimentos teóricos em ações levou-me a oportunidade de estagiar na área de desenvolvimento na <a href="https://www.ericsson.com/en">Ericsson</a> Brasil e a desenvolver uma autonomia jamais imaginável por minha própria pessoa. Entender os assuntos base me permitiu identificar e resolver os problemas com muito mais clareza.
-<br><br>No presente momento, alem de estar na posição de estagiário em desenvolvimento na Ericsson Brasil, trabalho como desenvolvedor Web de modo Freelancer. Você pode me encontrar nas <a href="#contato">redes</a>.</div>
+<br><br>No presente momento, alem de estar na posição de estagiário em desenvolvimento na Ericsson Brasil, trabalho como desenvolvedor Web de modo Freelancer. Você pode me encontrar nas <a href="#contato">redes</a>.</p>
       </article>
 
       <article id="habilidades" class="parallax habilidades">
         <div class="texto-parallax">
-          <span><h2>Habilidades</h2></span>
+          <h2>Habilidades</h2>
         </div>
       </article>
 
@@ -70,13 +72,11 @@ desenvolvimento, hoje estudo programação de modo autodidata e redes de computa
       </article>
 
       <article id="portfolio" class="parallax portfolio">
-        <div class="texto-parallax">
-          <span><h2>Portfolio</h2></span>
-        </div>
+        <div class="texto-parallax"><h2>Portfolio</h2></div>
       </article>
 
       <!-- PORTFOLIO CONTENT-->
-      <article class="container-flex">
+      <article id="projetos" class="container-flex">
         <article>
           <div class="conteudo-article">
             <img src="img/mf-browser.jpg" alt="My favorite films and tv shows website">
@@ -147,7 +147,7 @@ desenvolvimento, hoje estudo programação de modo autodidata e redes de computa
 
         <footer id="contato" class="parallax">
           <div class="container-flex">
-              <span class="copy">Copyright&copy;Gabriel Lima</span>
+              <span class="copy">Copyright&copy;GabrielLima</span>
               
             <span class="rede-social">
               <a href="https://github.com/HiroTatsuo" target="_blank">
@@ -162,16 +162,8 @@ desenvolvimento, hoje estudo programação de modo autodidata e redes de computa
             </span>
           </div>
         </footer>
-
       </main>
-      <script type="text/javascript">
-      //  OPEN AND CLOSE THE MENU 
-          function open_menu () {
-            var menu = document.getElementById('menu');  // GET THE MENU
-            menu.classList.toggle('open_menu');  // ADD THE OPEN_MENU CLASS
-            var botao_menu = document.getElementById('btn-menu');  //GET THE MENU BUTTON
-            botao_menu.classList.toggle('visibility');  // REMOVE VISIBILITY FROM MENU BUTTON
-          }
-      </script>
+      <script src="js/main.js"></script>
   </body>
+
 </html>
