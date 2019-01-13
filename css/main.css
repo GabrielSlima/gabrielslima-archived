@@ -70,6 +70,7 @@
         font-size: 18px;
       }
 
+
       #segundo_nome {
         display: inline;
       }
@@ -113,6 +114,7 @@
 
       .parallax {
         display: flex;
+        flex-wrap: wrap;
         background-attachment:fixed;
         background-position:center;
         background-size:cover;
@@ -136,6 +138,9 @@
         vertical-align: middle;
       }
 
+        .texto-parallax > img{
+          width: 350px;
+        }
       .cover-letter {
         margin: auto;
         height: 50%;

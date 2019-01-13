@@ -26,3 +26,8 @@
     width: 70%;
 }
 
+.texto-parallax > img 
+{
+    width: 250px;
+    max-width: 350px;
+}
